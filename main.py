@@ -44,7 +44,7 @@ def fetch_and_store_quote():
             }
             with open(json_file_path, 'w') as f:
                 json.dump(quote, f, cls=DecimalEncoder)
-        time.sleep(0.1)。            #拉取行情数据的频率，我这里设定一秒内拉取10次，这是长桥API的最大调用频率
+        time.sleep(0.1)          #拉取行情数据的频率，我这里设定一秒内拉取10次，这是长桥API的最大调用频率
 
 # Order submission
 def submit_market_order(symbol, side: OrderSide):
