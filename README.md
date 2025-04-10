@@ -1,6 +1,6 @@
-# 🎯 Real-Time NVDA Trading Monitor & Order Executor
+# 🎯 Real-Time  Trading Monitor & Order Executor
 
-该项目是一个基于 Longbridge API 实时拉取 **NVDA（英伟达）美股数据**，并通过 **键盘控制下单** 的 Python 程序，集成了可视化图表、持仓追踪和订单提交功能，适合用于交易策略测试与人工盯盘辅助操作。
+该项目是一个基于 Longbridge API 实时拉取 **NVDA（英伟达）/当然也可以是其他标的美股数据/**，并通过 **键盘控制下单** 的 Python 程序，集成了可视化图表、持仓追踪和订单提交功能，适合用于交易策略测试与人工盯盘辅助操作。
 
 ## 📦 功能说明
 
